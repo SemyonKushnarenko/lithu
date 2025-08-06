@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary: #125f3f;
+  --secondary: #232323;
+  --tertiary: #a3a3a3;
+  --quaternary: #939393;
+  --quinary: #fafafa;
+  --senary: #707070;
+  --septenary: #39ab65;
+  --octonary: #979797;
+  --nonary: #282828;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-tertiary: var(--tertiary);
+  --color-quaternary: var(--quaternary);
+  --color-quinary: var(--quinary);
+  --color-senary: var(--senary);
+  --color-septenary: var(--septenary);
+  --color-octonary: var(--octonary);
+  --color-nonary: var(--nonary);
+  --breakpoint-3xl: 1920px;
+
+  --font-urbanist: var(--font-urbanist);
+}
+
+@theme {
+  --breakpoint-desktop: 90rem;
+}
+
+@layer base {
+  body {
+    @apply bg-quinary text-foreground font-sans font-normal font-urbanist;
+  }
+}
+
+@layer components {
+  .swiper {
+    @apply w-full h-full;
+  }
+
+  .swiper-slide {
+    @apply text-center text-lg bg-white flex justify-center items-center;
+  }
+
+  .swiper-slide img {
+    @apply block w-full h-full object-cover;
+  }
+}
+
+@layer utilities {
+  .wrapper {
+    @apply desktop:max-w-[1351px] xl:max-w-[1180px] lg:max-w-[980px] md:max-w-[720px] sm:max-w-[580px] max-w-[380px] mx-auto w-full;
+  }
+  .section-padding {
+    @apply px-[19px] lg:px-0;
+  }
+}
