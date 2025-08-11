@@ -3,15 +3,7 @@ export default function IsmanumoIrPatogumo() {
     <section className={`mt-[34.67px] md:mt-[80.61px] lg:px-0 px-[19px]`}>
       <div className="wrapper">
         <div className="flex flex-col-reverse md:flex-row justify-between md:items-center md:gap-0 gap-[36px]">
-          <div className={`hidden md:block max-w-[765.152px] min-h-[95px]`}>
-            <h1 className="text-[30px] sm:text-[40px] text-black font-medium md:leading-[47px] leading-[36px] md:tracking-[0.4px] tracking-[0.3px]">
-              <span className="text-quaternary">Tobulas derinys tarp</span>{" "}
-              gamtos, išmanumo ir patogumo.
-            </h1>
-          </div>
-          <div
-            className={`block md:hidden max-w-[281.673px] min-h-[112.263px]`}
-          >
+          <div className="md:block max-w-[765.152px] lg:min-h-[95px] max-md:w-full">
             <h1 className="text-[30px] sm:text-[40px] text-black font-medium md:leading-[47px] leading-[36px] md:tracking-[0.4px] tracking-[0.3px]">
               <span className="text-quaternary">Tobulas derinys tarp</span>{" "}
               gamtos, išmanumo ir patogumo.
@@ -19,12 +11,11 @@ export default function IsmanumoIrPatogumo() {
           </div>
           <ul className="">
             <li className="flex md:flex-col flex-row md:items-start items-center md:gap-0 gap-2">
-              <span className="text-[16px] font-medium tracking-[0.16px] text-octonary">
-                {/* 01 */}
+              <span className="text-[16px] font-medium tracking-[0.16px] text-octonary md:hidden">
+                01
               </span>
               <p className="w-[119.882px] md:min-h-[37px] text-[16px] font-medium leading-[17px] tracking-[0.16px]">
-                Informacija{" "}
-                <span className="md:inline hidden">apie projekta</span>
+                Informacija <span className="max-lg:hidden">apie projekta</span>
               </p>
             </li>
           </ul>
