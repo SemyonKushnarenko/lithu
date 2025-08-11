@@ -5,9 +5,9 @@ const Rome = () => {
   return (
     <div className="max-w-[1175px] mx-auto">
       <div className="mt-[71px] mb-[120px]">
-        <div className="flex flex-col lg:flex-row justify-between gap-6 lg:gap-0">
+        <div className="flex flex-col xl:flex-row justify-between gap-6 xl:gap-0 max-xl:max-w-[480px] max-xl:mx-auto">
           {/* Left Section */}
-          <div className="flex flex-col sm:flex-row lg:flex-row items-center lg:items-end">
+          <div className="flex flex-col xl:flex-row items-center xl:items-end">
             <div className="w-[306px] h-[453px] rounded-xl overflow-hidden shadow-md max-w-sm sm:max-w-md">
               <Image
                 src="/images/rome/rome01.png"
@@ -24,7 +24,7 @@ const Rome = () => {
           </div>
 
           {/* Right Section */}
-          <div className="flex flex-col lg:justify-between items-center lg:items-start">
+          <div className="flex flex-col xl:justify-between items-center xl:items-start">
             <Image
               src="/images/rome/rome02.png"
               alt="Contact Image"
@@ -32,7 +32,7 @@ const Rome = () => {
               height={389}
               className="w-full max-w-[612px]"
             />
-            <p className="text-[rgba(98,98,98,1)] ml-[10px] text-[15px] leading-[21px] font-[600] text-center lg:text-left">
+            <p className="text-[rgba(98,98,98,1)] ml-[10px] text-[15px] leading-[21px] font-[600] text-center xl:text-left">
               Atraskite savo pojūčių gamą – leiskite gamtai <br />
               Jūs įkvėpti.
             </p>

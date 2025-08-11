@@ -3,7 +3,7 @@ import ImageMapPro from "../ImageMapPro";
 
 const Banner = () => {
   return (
-    <div>
+    <div className="flex flex-col">
       {/* Banner Image */}
       <div className="relative rounded-t-md">
         <ImageMapPro />
@@ -33,9 +33,9 @@ const Banner = () => {
       </div>
 
       {/* Banner Bottom */}
-      <div className="min-h-[83.812px] bg-black md:flex justify-between xl:items-center py-[34.08px] xl:py-[0px] px-[34.08px] relative z-10 hidden rounded-b-[6px]">
-        <ul className="flex xl:items-center flex-col xl:flex-row gap-6 xl:gap-[46.79px]">
-          <li className="text-quinary flex items-center gap-[5.73px]">
+      <div className="min-h-[83.812px] bg-black max-lg:flex-col md:flex justify-between xl:items-center py-[34.08px] xl:py-[0px] px-[34.08px] relative z-10 rounded-b-[6px] max-lg:gap-8 max-sm:gap-4">
+        <ul className="flex flex-wrap xl:items-center lg:flex-col xl:flex-row gap-6 xl:gap-[46.79px] max-lg:gap-4 max-sm:gap-2 max-lg:justify-between">
+          <li className="text-quinary flex items-center gap-[5.73px] max-lg:flex-1/2">
             <span className="uppercase text-[13px] font-medium leading-[31px] tracking-[1.3px]">
               kambariAI
             </span>
@@ -139,7 +139,7 @@ const Banner = () => {
             </span>
           </li>
         </ul>
-        <button className="cursor-pointer mt-10 md:mt-0 w-[235.2px] md:w-[205.2px] h-[41.414px] rounded-[8px] bg-septenary flex items-center justify-center gap-[7px] text-quinary">
+        <button className="max-lg:w-full cursor-pointer mt-10 md:mt-0 lg:w-[205.2px] h-[41.414px] rounded-[8px] bg-septenary flex items-center justify-center gap-[7px] text-quinary">
           <span className="text-sm sm:text-[14px] tracking-[1.4px] uppercase">
             projekto planas
           </span>

@@ -61,7 +61,7 @@ export default function FunkcionalumasIr() {
                   title="KADA BUS BAIGTOS STATYBOS? "
                   className=" border-t-0 rounded-t-[5px]"
                 >
-                  <p className="text-gray-600 md:text-[20px] text-[15px] font-medium">
+                  <p className="p-4 text-gray-600 md:text-[20px] text-[15px] font-medium">
                     Pirmieji 5 namai bus baigti 2025 Q4, tikslesne informacija
                     priklauso nuo įvairių veiksnių, įskaitant pasirinktą modelį
                     ir dabartinius statybų grafikus. Norėdami sužinoti tikslesnį
@@ -69,7 +69,7 @@ export default function FunkcionalumasIr() {
                   </p>
                 </Collaps>
                 <Collaps title="KOKS YRA IRENGIMAS?">
-                  <p className="text-gray-600 md:text-[20px] text-[15px] font-medium">
+                  <p className="p-4 text-gray-600 md:text-[20px] text-[15px] font-medium">
                     Mūsų namai sukurti taip, kad atitiktų A++ energinio
                     efektyvumo standartus, užtikrinant puikią izoliaciją visame
                     name. Tai apima aukštos kokybės izoliacines medžiagas
@@ -80,7 +80,7 @@ export default function FunkcionalumasIr() {
                   </p>
                 </Collaps>
                 <Collaps title="KOKIA NAMO KAINA?">
-                  <p className="text-gray-600 md:text-[20px] text-[15px] font-medium">
+                  <p className="p-4 text-gray-600 md:text-[20px] text-[15px] font-medium">
                     Mūsų namų kaina priklauso nuo pasirinkto modelio, dydžio ir
                     pritaikymo galimybių. Kainos paprastai prasideda nuo 190 000
                     eurų. Norėdami gauti išsamesnę informaciją apie kainas ir

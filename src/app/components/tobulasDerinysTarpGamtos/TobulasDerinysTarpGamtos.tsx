@@ -215,17 +215,6 @@ export default function TobulasDerinysTarpGamtos() {
 
       {/* Mobile view */}
       <div className="md:hidden flex flex-col md:flex-row md:items-center gap-[45px] pt-[78px] pb-[87px] bg-white section-padding relative overflow-hidden">
-        <div className="absolute inset-0 z-0 w-[380.454px] h-[779.039px] flex-shrink-0 left-1/2 transform -translate-x-1/2 ">
-          <Image
-            src="/images/bg-namai.png"
-            alt="Background"
-            layout="fill"
-            objectFit="cover"
-            quality={100}
-            className="mix-blend-overlay"
-          />
-        </div>
-
         <div className="relative z-10 flex flex-col gap-[45px]">
           {cardInfo?.map(({ number, icon, title, description, _id }, index) => (
             <div
