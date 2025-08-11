@@ -7,7 +7,7 @@ const Rome = () => {
       <div className="mt-[71px] mb-[120px]">
         <div className="flex flex-col xl:flex-row justify-between gap-6 xl:gap-0 max-xl:max-w-[480px] max-xl:mx-auto">
           {/* Left Section */}
-          <div className="flex flex-col xl:flex-row items-center xl:items-end">
+          <div className="flex flex-row items-center xl:items-end">
             <div className="w-[306px] h-[453px] rounded-xl overflow-hidden shadow-md max-w-sm sm:max-w-md">
               <Image
                 src="/images/rome/rome01.png"

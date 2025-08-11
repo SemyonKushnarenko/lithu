@@ -77,7 +77,7 @@ export default function TobulasDerinysTarpGamtos() {
                     Galvokite apie savo naujus namus jau šiandien.
                   </h1>
                   <div className="lg:mt-[23.56px]">
-                    <button className="w-[198.408px] h-[70.404px] flex justify-center rounded-[14px] items-center bg-white text-black gap-[8.94px]">
+                    <button className="transition-all hover:border-[4px]  cursor-pointer w-[198.408px] h-[70.404px] flex justify-center rounded-[14px] items-center bg-white text-black gap-[8.94px]">
                       <span className="text-[17px] font-semibold tracking-[0.68px] pr-[2px]">
                         Rinktis namą
                       </span>

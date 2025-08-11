@@ -24,14 +24,14 @@ export default function Navbar() {
               </a>
               <button
                 type="button"
-                className="bg-white w-[140px] sm:w-[198.408px] h-[45px] sm:h-[70.404px] text-black border border-primary rounded-[10px] sm:rounded-[14px] flex justify-center items-center gap-[9.26px]"
+                className="transition-all hover:border-[4px] cursor-pointer bg-white w-[140px] sm:w-[198.408px] h-[45px] sm:h-[70.404px] text-black border border-primary rounded-[10px] sm:rounded-[14px] flex justify-center items-center gap-[9.26px]"
               >
                 <span className="text-sm sm:text-[17px] font-semibold tracking-[0.68px]">
                   Rinktis namą
                 </span>
                 <div>
                   <Image
-                    src="/icons/home-outlined.png"
+                    src={`/icons/home-outlined.png`}
                     alt="Logo"
                     height={21.658}
                     width={21.061}

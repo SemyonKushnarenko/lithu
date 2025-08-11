@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "development-simon",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "development-simon": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "development-simon",
+    "origin"
+  ]
+}

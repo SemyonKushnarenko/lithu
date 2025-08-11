@@ -14,11 +14,6 @@ export default function IndividualiuNamuKvartalas() {
             Individualių namų kvartalas
           </h1>
         </div>
-      </div>
-      <div className="lg:hidden">
-        <Banner />
-      </div>
-      <div className="wrapper max-lg:hidden">
         <Banner />
       </div>
     </section>

@@ -72,7 +72,7 @@ export default function ImageMapPro() {
   }, []);
 
   return (
-    <div className="relative w-full h-full lg:min-h-[764.7px]">
+    <div className="relative w-full h-full lg:min-h-[200px]">
       {isLoading && (
         <div className="absolute inset-0 z-10">
           <Image
@@ -87,6 +87,5 @@ export default function ImageMapPro() {
 
       <div id="image-map-pro" className="w-full h-full" />
     </div>
-
   );
 }
