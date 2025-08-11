@@ -87,5 +87,6 @@ export default function ImageMapPro() {
 
       <div id="image-map-pro" className="w-full h-full" />
     </div>
+
   );
 }
