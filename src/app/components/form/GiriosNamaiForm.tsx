@@ -150,7 +150,7 @@ export default function GiriosNamaiForm() {
               <button
                 type="submit"
                 disabled={result === "Siuntimas..."}
-                className="w-full md:w-[251.4px] h-[51.693px] text-black bg-white text-[17px] font-medium uppercase tracking-[1px] rounded-[5px] flex items-center justify-center gap-[15px] cursor-pointer"
+                className="transition-all hover:bg-[#1CBD7D] hover:text-white w-full md:w-[251.4px] h-[51.693px] text-black bg-white text-[17px] font-medium uppercase tracking-[1px] rounded-[5px] flex items-center justify-center gap-[15px] cursor-pointer"
               >
                 {result}
                 <svg
@@ -162,7 +162,7 @@ export default function GiriosNamaiForm() {
                 >
                   <path
                     d="M15.2491 5.42231L10.534 1.13361C10.4465 1.05397 10.3423 0.990514 10.2274 0.946863C10.1125 0.903212 9.98916 0.88022 9.86443 0.8792C9.61252 0.87714 9.3702 0.964702 9.19077 1.12262C9.10192 1.20082 9.03119 1.29393 8.98261 1.39665C8.93404 1.49936 8.90857 1.60967 8.90765 1.72128C8.90581 1.94667 9.00411 2.16365 9.18094 2.32448L12.2863 5.14902L1.27996 5.05901C1.02801 5.05695 0.785653 5.14453 0.606196 5.30247C0.426739 5.46041 0.324885 5.67579 0.323042 5.90121C0.321198 6.12664 0.419516 6.34365 0.596366 6.50451C0.773216 6.66537 1.01411 6.75689 1.26606 6.75895L12.2724 6.84896L9.12126 9.62234C8.94183 9.78026 8.83999 9.9956 8.83814 10.221C8.8363 10.4464 8.9346 10.6634 9.11143 10.8242C9.28825 10.985 9.52911 11.0765 9.78102 11.0786C10.0329 11.0807 10.2753 10.9931 10.4547 10.8352L15.2393 6.62417C15.3282 6.54602 15.399 6.45293 15.4477 6.3502C15.4963 6.24748 15.5218 6.13714 15.5227 6.02552C15.5236 5.91389 15.4999 5.80315 15.453 5.69964C15.406 5.59614 15.3368 5.5019 15.2491 5.42231Z"
-                    fill="black"
+                    fill="currentColor"
                   />
                 </svg>
               </button>

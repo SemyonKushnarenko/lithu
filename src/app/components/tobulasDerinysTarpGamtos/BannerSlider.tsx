@@ -28,6 +28,11 @@ export default function BannerSlider() {
     <section className="md:pt-[78.64px]">
       <div className="wrapper">
         <div className="mt-[4.2px] relative">
+          <div className="md:hidden z-12 absolute top-0 left-0 right-0 px-[22px] py-[28px] bg-gradient-to-b from-black/10 to-transparent">
+            <div className="text-black text-[15px] font-medium leading-[17px] tracking-[0.13px] text-start">
+              <span className="text-[#979797]">06</span> Galerija
+            </div>
+          </div>
           <Swiper
             ref={swiperRef}
             modules={[Navigation]}
@@ -43,40 +48,17 @@ export default function BannerSlider() {
               swiper.navigation.update();
             }}
             className="mySwiper"
+            style={{}}
           >
             <SwiperSlide className="relative">
-              <div className="hidden md:block">
-                <Image
-                  src="/images/home/house-dog-playing.jpeg"
-                  alt="Individualių Namų Kvartalas"
-                  width={1346}
-                  height={669}
-                  className=" w-[1346.607px] min-h-[669.815px] rounded-t-[6px]"
-                  priority
-                />
-              </div>
-              <div className="block md:hidden">
-                <Image
-                  src="/images/home/house-dog-playing.jpeg"
-                  alt="Individualių Namų Kvartalas"
-                  width={1346}
-                  height={669}
-                  className=" w-[1346.607px] min-h-[509.667px]"
-                  priority
-                />
-              </div>
-              {/* Mobile-only content */}
-              <div className="md:hidden absolute bottom-0 left-0 right-0 px-[19px] pb-[29px] bg-gradient-to-t from-black/10 to-transparent">
-                <div className="text-black text-[13px] font-medium leading-[17px] tracking-[0.13px] text-start">
-                  Vakaru G. 1
-                </div>
-                <div className="text-black text-[35px] font-semibold leading-[42.665px] text-start">
-                  Individualių namų kvartalas
-                  <span className="inline-flex items-center justify-center w-[56.019px] h-[28.905px] rounded-[25px] border border-[#707070] bg-white text-[15px] font-semibold tracking-[0.3px] ml-2">
-                    A++
-                  </span>
-                </div>
-              </div>
+              <Image
+                src="/images/home/house-dog-playing.jpeg"
+                alt="Individualių Namų Kvartalas"
+                width={1346}
+                height={669}
+                className="w-[1346.607px] md:min-h-[669.815px] min-h-[328px] aspect-[1346.61/669.82]"
+                priority
+              />
             </SwiperSlide>
 
             <SwiperSlide>
@@ -85,7 +67,7 @@ export default function BannerSlider() {
                 alt="Individualių Namų Kvartalas"
                 width={1346}
                 height={669}
-                className="w-[1346.607px] md:min-h-[669.815px] min-h-[509.667px] aspect-[1346.61/669.82]"
+                className="w-[1346.607px] md:min-h-[669.815px] min-h-[328px] aspect-[1346.61/669.82]"
                 priority
               />
             </SwiperSlide>
@@ -95,7 +77,7 @@ export default function BannerSlider() {
                 alt="Individualių Namų Kvartalas"
                 width={1346}
                 height={669}
-                className="w-[1346.607px] md:min-h-[669.815px] min-h-[509.667px] aspect-[1346.61/669.82]"
+                className="w-[1346.607px] md:min-h-[669.815px] min-h-[328px] aspect-[1346.61/669.82]"
                 priority
               />
             </SwiperSlide>
@@ -103,7 +85,7 @@ export default function BannerSlider() {
             {/* ====== custom navigation buttons =====> */}
             <button
               ref={prevRef}
-              className="absolute left-[34.08px] top-1/2 -translate-y-1/2 z-10   transition-all disabled:opacity-50 disabled:cursor-not-allowed bg-white w-[41.52px] sm:w-[61.52px] h-[41.249px] sm:h-[61.249px] md:flex justify-center items-center rounded-[5px] hidden"
+              className="absolute left-[34.08px] top-1/2 -translate-y-1/2 z-10   transition-all disabled:opacity-50 disabled:cursor-not-allowed bg-white w-[41.52px] sm:w-[61.52px] h-[41.249px] sm:h-[61.249px] flex justify-center items-center rounded-[5px]"
               aria-label="Previous slide"
             >
               <svg
@@ -121,7 +103,7 @@ export default function BannerSlider() {
             </button>
             <button
               ref={nextRef}
-              className="absolute right-[34.08px] top-1/2 -translate-y-1/2 z-10 b transition-all disabled:opacity-50 disabled:cursor-not-allowed bg-white w-[41.52px] sm:w-[61.52px] h-[41.249px] sm:h-[61.249px] md:flex justify-center items-center rounded-[5px] hidden"
+              className="absolute right-[34.08px] top-1/2 -translate-y-1/2 z-10 b transition-all disabled:opacity-50 disabled:cursor-not-allowed bg-white w-[41.52px] sm:w-[61.52px] h-[41.249px] sm:h-[61.249px] flex justify-center items-center rounded-[5px]"
               aria-label="Next slide"
             >
               <svg

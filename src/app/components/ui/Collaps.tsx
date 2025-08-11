@@ -30,7 +30,14 @@ export default function Collaps({
           {isOpen ? "−" : "+"}
         </span>
       </button>
-      {isOpen && <div className="p-4 bg-white text-nonary">{children}</div>}
+      <div
+        className={`grid transition-all duration-300 ease-in-out ${
+          isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
+        }`}
+        aria-hidden={!isOpen}
+      >
+        <div className="overflow-hidden bg-white text-nonary">{children}</div>
+      </div>
     </div>
   );
 }
